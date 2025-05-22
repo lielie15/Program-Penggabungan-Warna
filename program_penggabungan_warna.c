@@ -102,7 +102,7 @@ int main() {
     char warna2[20];
     char warna3[20];
     char warna4[20];
-    char is_gabung[2]; 
+    char gabung[2]; 
 
     printf("\nPlihlah Warna!\n");
 
@@ -139,28 +139,28 @@ int main() {
 
     if (strcmp(hasil, "Tidak diketahui") != 0 && strcmp(hasil2, "Tidak diketahui") != 0) {
         printf("Apakah warna %s ingin digabungkan dengan warna %s? (y/n) : ", hasil, hasil2);
-        scanf("%s", is_gabung);
+        scanf("%s", gabung);
 
-        if(strcmp(is_gabung, "y") == 0){
+        if(strcmp(gabung, "y") == 0){
             printf("\nWarna ke-1 : %s", hasil);
             printf("\nWarna ke-2 : %s\n", hasil2);
 
-            const char* hasil_next = gabungWarna(hasil, hasil2);
-            printf("\nHasil penggabungan antara warna %s dan warna %s yaitu menjadi warna %s\n\n", hasil, hasil2, hasil_next);
+            const char* hasilNext = gabungWarna(hasil, hasil2);
+            printf("\nHasil penggabungan antara warna %s dan warna %s yaitu menjadi warna %s\n\n", hasil, hasil2, hasilNext);
 
             printf("Apakah ingin mencoba penggabungan warna lainnya? (y/n) : ");
-            scanf("%s", is_gabung);
+            scanf("%s", gabung);
 
-            if(strcmp(is_gabung, "y") == 0){
+            if(strcmp(gabung, "y") == 0){
                 main();
             } else {
                 printf("\nProgram Penggabungan Warna Selesai");
             }    
         } else {
             printf("Apakah ingin mencoba penggabungan warna lainnya? (y/n) : ");
-            scanf("%s", is_gabung);
+            scanf("%s", gabung);
 
-            if(strcmp(is_gabung, "y") == 0){
+            if(strcmp(gabung, "y") == 0){
                 main();
             } else {
                 printf("\nProgram Penggabungan Warna Selesai");
@@ -169,9 +169,9 @@ int main() {
     } else {
         printf("Kedua hasil warna tidak dapat digabungkan, karena salah satu atau kedua warnanya tidak diketahui\n\n");
         printf("Apakah ingin mencoba penggabungan warna lainnya? (y/n) : ");
-        scanf("%s", is_gabung);
+        scanf("%s", gabung);
 
-        if(strcmp(is_gabung, "y") == 0){
+        if(strcmp(gabung, "y") == 0){
             main();
         } else {
             printf("\nProgram Penggabungan Warna Selesai");
