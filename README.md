@@ -31,3 +31,4 @@ Buatkan teori pencampuran warna RGB, contohnya seperti warna A di campur dengan 
 - Array
 
 ## Link Video Demo
+https://youtu.be/whZWluPEqwo
