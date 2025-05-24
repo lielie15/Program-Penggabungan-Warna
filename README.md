@@ -16,14 +16,15 @@ Buatkan teori pencampuran warna RGB, contohnya seperti warna A di campur dengan 
 ## 🧠 Penjelasan Program
 - Bahasa pemrograman yang digunakan: C
 - Fitur utama:
-- Input data nilai
-- Perhitungan otomatis
-- Output hasil IPK
+- Input warna dasar: warna1, warna2, warna3, warna4
+- Pencampuran warna otomatis
+- Output hasil pencampuran warna
 
 - Konsep yang digunakan:
 - Input/output
 - Variabel
 - If-else
+- Loop (perulangan)
 - Fungsi
 - Array
 
