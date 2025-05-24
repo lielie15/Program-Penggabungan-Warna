@@ -105,7 +105,8 @@ int main() {
     char warna3[20];
     char warna4[20];
     char gabung[2]; 
-    //array: menyimpan input 
+    //array: menyimpan karakter string dalam []
+    //variabel dalam tipe array 
 
     printf("\nPlihlah Warna!\n"); //output
 
@@ -124,7 +125,7 @@ int main() {
     scanf("%s", warna2); //input: pengguna menginput warna kedua untuk penggabungan warna pertama
     toLowerStr(warna2); //memanggil fungsi toLowerStr
 
-    const char* hasil = gabungWarna(warna1, warna2); //memanggil fungsi gabungWarna
+    const char* hasil = gabungWarna(warna1, warna2); //memanggil fungsi gabungWarna dan disimpan kedalam variabel hasil
     printf("\nHasil penggabungan antara warna %s dan warna %s yaitu menjadi warna %s\n\n", warna1, warna2, hasil); //setelah pengguna menginputkan warna1 dan warna2 maka program akan mengeluarkan kalimat berikut dengan hasil penggabungan warna dan memanggil fungsi gabungWarna //output
 
     printf("--------------------------------\n"); //output
@@ -150,7 +151,7 @@ int main() {
             printf("\nWarna ke-2 : %s\n", hasil2); //output
             //maka program akan mengeluarkan hasil penggabungan warna pertama dan hasil penggabungan warna kedua
             
-            const char* hasilNext = gabungWarna(hasil, hasil2); //masih dalam kondisi ketika pengguna menginput y maka akan memanggil fungsi gabungWarna 
+            const char* hasilNext = gabungWarna(hasil, hasil2); //masih dalam kondisi ketika pengguna menginput y maka akan memanggil fungsi gabungWarna dan disimpan kedalam variabel hasilNext
             printf("\nHasil penggabungan antara warna %s dan warna %s yaitu menjadi warna %s\n\n", hasil, hasil2, hasilNext); //maka program akan mengeluarkan hasil penggabungan warna pertama dan hasil penggabungan warna kedua dan hasil dari penggabungan warna pertama dan kedua //output
 
             printf("Apakah ingin mencoba penggabungan warna lainnya? (y/n) : "); //setelah itu program akan memberi pertanyaan ke pengguna apakah ingin mencoba penggabungan warna lain //output
