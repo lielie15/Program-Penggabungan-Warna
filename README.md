@@ -17,8 +17,8 @@ Buatkan teori pencampuran warna RGB, contohnya seperti warna A di campur dengan 
 - Bahasa pemrograman yang digunakan: C
 - Fitur utama:
 - Input warna dasar: warna1, warna2, warna3, warna4
-- Pencampuran warna1 dan warna2 otomatis
-- Pencampuran warna3 dan warna4 otomatis
+- Penggabungan warna1 dan warna2 otomatis
+- Penggabungan warna3 dan warna4 otomatis
 - pencampuran hasil penggabungan pertama dengan penggabungan kedua otomatis
 - Output hasil pencampuran warna 
 
